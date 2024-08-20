@@ -1,0 +1,1 @@
+using MyService as service from '../../srv/student_service';

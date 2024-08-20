@@ -1,0 +1,6 @@
+ID,url,date_published,content_type,course_ID
+12345678-90ab-cdef-1234-567890abcdef,https://example.com/content/programming-basics,2023-01-20,video,c0a80102-1d1b-43a1-8e3b-d92f8c5d5d1d
+23456789-0abc-def1-2345-67890abcdef1,https://example.com/content/algorithms-intro,2023-03-01,article,d1b02c3f-2e1b-4a8d-a3e7-fde123456789
+34567890-1abc-def2-3456-7890abcdef23,https://example.com/content/web-dev-overview,2023-05-15,video,fcb8d7f9-4b9e-4b61-bd1c-95c987654321
+45678901-2bcd-ef34-4567-890abcdef345,https://example.com/content/dbms-fundamentals,2023-06-10,document,ee8d3f2e-3c8f-4d6f-812a-12345abcdef6
+56789012-3cde-f456-5678-90abcdef4567,https://example.com/content/ml-intro,2023-07-30,video,a1b2c3d4-5e6f-7890-ab12-34567890abcd

@@ -1,0 +1,6 @@
+ID,course_name,course_url,course_duration,course_price,published_status
+c0a80102-1d1b-43a1-8e3b-d92f8c5d5d1d,Introduction to Programming,https://example.com/course/intro-to-programming,30,99.99,true
+d1b02c3f-2e1b-4a8d-a3e7-fde123456789,Data Structures and Algorithms,https://example.com/course/data-structures,40,149.99,true
+fcb8d7f9-4b9e-4b61-bd1c-95c987654321,Web Development Bootcamp,https://example.com/course/web-development,45,199.99,true
+ee8d3f2e-3c8f-4d6f-812a-12345abcdef6,Database Management Systems,https://example.com/course/dbms,35,129.99,true
+a1b2c3d4-5e6f-7890-ab12-34567890abcd,Machine Learning Basics,https://example.com/course/machine-learning,50,249.99,true
