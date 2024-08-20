@@ -30,8 +30,12 @@
         }
       }
     }
+<<<<<<< HEAD
   },
   "sapux": [
     "app/student_manage"
   ]
+=======
+  }
+>>>>>>> b30f86dbdd78f56b3592804a46934e12e7ca1e84
 }
