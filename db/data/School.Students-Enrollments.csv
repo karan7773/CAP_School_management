@@ -1,0 +1,9 @@
+ID,course_ID,student_email
+f1345a11-6789-4bc8-a7e2-54321dca0987,a8c82b12-67b4-42c3-9f32-123c65f1ed12,john.doe@example.com
+d8349a12-9c7b-4817-9eb1-9876e12abc34,bd91376f-93a7-4e19-b74a-934f2e12bc47,john.doe@example.com
+c3e47d98-7f24-4bce-9352-23e4a34c5678,347fa93b-e15e-4328-a9d5-d872c35f91cd,jane.smith@example.com
+e6c9b34d-2d15-4a84-a832-81234b1d2e67,cf37d56f-852d-4b9c-8329-9d4f7c2b5f8e,jane.smith@example.com
+f98c2b12-7e3c-4a91-bd5a-43c678ad12f8,a8c82b12-67b4-42c3-9f32-123c65f1ed12,alice.jones@example.com
+g876d12f-74b9-4ab5-9a1d-b34c678d3e91,bd91376f-93a7-4e19-b74a-934f2e12bc47,bob.martin@example.com
+h564e23d-65f4-4b8c-985d-d12c5e76fb34,cf37d56f-852d-4b9c-8329-9d4f7c2b5f8e,sarah.lee@example.com
+i354c78e-3f45-4b89-a5c9-f24378dc8b67,a8c82b12-67b4-42c3-9f32-123c65f1ed12,emily.clark@example.com

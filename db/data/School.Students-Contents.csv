@@ -1,0 +1,6 @@
+ID,url,date_published,content_type,course_ID
+a1f9c8d2-6d7a-4b3b-92cf-6341fbd1b245,https://learn.sap.com/cap/intro-video,2023-08-05,video,a8c82b12-67b4-42c3-9f32-123c65f1ed12
+b4c2d982-1f45-4b34-865e-9fd245cd1345,https://learn.sap.com/cap/setup-guide,2023-08-10,article,a8c82b12-67b4-42c3-9f32-123c65f1ed12
+c6d81c4a-3b5d-4a2e-8d7f-4f2c47f91ec5,https://learn.sap.com/fiori/basics,2023-08-18,video,bd91376f-93a7-4e19-b74a-934f2e12bc47
+d27f934b-214c-4d5e-978b-df23f8c4a94c,https://learn.sap.com/cap/advanced,2023-09-01,article,347fa93b-e15e-4328-a9d5-d872c35f91cd
+e8395b0c-2f13-45a5-8cba-54312cd09b34,https://learn.sap.com/fiori/design-principles,2023-09-05,pdf,cf37d56f-852d-4b9c-8329-9d4f7c2b5f8e

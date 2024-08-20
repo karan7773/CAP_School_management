@@ -1,0 +1,5 @@
+ID,course_name,course_url,course_duration,course_price,published_status
+a8c82b12-67b4-42c3-9f32-123c65f1ed12,Introduction to SAP CAP,https://learn.sap.com/cap/intro,30,199.99,true
+bd91376f-93a7-4e19-b74a-934f2e12bc47,UI5 and Fiori Basics,https://learn.sap.com/fiori/basics,25,149.99,true
+347fa93b-e15e-4328-a9d5-d872c35f91cd,Advanced SAP CAP Techniques,https://learn.sap.com/cap/advanced,40,299.99,false
+cf37d56f-852d-4b9c-8329-9d4f7c2b5f8e,Fiori Design and Development,https://learn.sap.com/fiori/design,35,249.99,true
