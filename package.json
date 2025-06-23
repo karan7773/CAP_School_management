@@ -7,14 +7,21 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^8",
-    "express": "^4"
+    "express": "^4",
+    "@cap-js/hana": "^1"
   },
   "devDependencies": {
+    "@cap-js/cds-types": "^0.6",
     "@cap-js/sqlite": "^1",
-    "@cap-js/cds-types": "^0.6"
+    "@sap/cds-dk": "^8",
+    "rimraf": "^5.0.5",
+    "mbt": "^1.2.29"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "undeploy": "cf undeploy school_management --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
   },
   "cds": {
     "requires": {
@@ -28,14 +35,20 @@
             ]
           }
         }
+      },
+      "[production]": {
+        "db": "hana",
+        "auth": "dummy"
+      },
+      "[hybrid]": {
+        "db": "hana"
       }
+    },
+    "sql": {
+      "native_hana_associations": false
     }
-<<<<<<< HEAD
   },
   "sapux": [
     "app/student_manage"
   ]
-=======
-  }
->>>>>>> b30f86dbdd78f56b3592804a46934e12e7ca1e84
 }

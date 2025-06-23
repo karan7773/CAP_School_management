@@ -1,15 +1,35 @@
 {
-    "name": "student_manage",
-    "version": "0.0.1",
-    "description": "An SAP Fiori application.",
-    "keywords": [
-        "ui5",
-        "openui5",
-        "sapui5"
-    ],
-    "main": "webapp/index.html",
-    "scripts": {
-        "deploy-config": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf"
-    },
-    "devDependencies": { }
+  "name": "studentmanage",
+  "version": "0.0.1",
+  "description": "An SAP Fiori application.",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "scripts": {
+    "deploy-config_old": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf",
+    "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#studentmanage-tile\"",
+    "start-local": "fiori run --config ./ui5-local.yaml --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#studentmanage-tile\"",
+    "start-noflp": "fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
+    "start-variants-management": "fiori run --open \"preview.html?sap-ui-xx-viewCache=false&fiori-tools-rta-mode=true&sap-ui-rta-skip-flex-validation=true#preview-app\"",
+    "build": "ui5 build -a --clean-dest --include-task=generateCachebusterInfo",
+    "deploy": "fiori verify",
+    "deploy-config": "fiori add deploy-config",
+    "start-mock": "fiori run --config ./ui5-mock.yaml --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#studentmanage-tile\"",
+    "suite-tests": "fiori run --open 'test/testsuite.qunit.html'",
+    "int-tests": "fiori run --open 'test/integration/opaTests.qunit.html'",
+    "build:cf": "ui5 build preload --clean-dest --config ui5-deploy.yaml --include-task=generateCachebusterInfo"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "@sap/ux-ui5-tooling": "1",
+    "rimraf": "3.0.2",
+    "@sap-ux/ui5-middleware-fe-mockserver": "2",
+    "ui5-task-zipper": "^3.4.x"
+  },
+  "private": true,
+  "sapux": true,
+  "sapuxLayer": "CUSTOMER_BASE"
 }
